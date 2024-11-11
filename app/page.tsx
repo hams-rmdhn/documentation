@@ -11,15 +11,15 @@ export default function Home() {
         target="_blank"
         className="mb-5 sm:text-lg flex items-center gap-2 underline underline-offset-4 sm:-mt-12"
       >
-        Get our custom themes & plugins{" "}
+        Get themes & plugins{" "}
         <MoveUpRightIcon className="w-4 h-4 font-extrabold" />
       </Link>
       <h1 className="text-3xl font-bold mb-4 sm:text-6xl">
-        Documentation of Studio Inspirasi
+        Studio Inspirasi
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
-        Make your website run with a very useful feature by using our custom themes
-        and plugins. Read the documentation to know how it works!
+        Documentation of plugins & custom themes we created.
+        Read the documentation to know how the features work.
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
