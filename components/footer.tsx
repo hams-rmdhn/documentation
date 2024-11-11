@@ -37,7 +37,7 @@ export function FooterButtons() {
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
         <HeartIcon className="h-4 w-4 mr-2 text-red-600 fill-current" />
-        WordPress Developer
+        Cinta Indonesia
       </Link>
     </>
   );
