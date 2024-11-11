@@ -15,13 +15,11 @@ export default function Home() {
         <MoveUpRightIcon className="w-4 h-4 font-extrabold" />
       </Link>
       <h1 className="text-3xl font-bold mb-4 sm:text-6xl">
-        Effortlessly build stunning documentation sites with Next.js and server
-        components.
+        Documentation of Studio Inspirasi
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
-        This feature-packed documentation template, built with Next.js, offers a
-        sleek and responsive design, perfect for all your project documentation
-        needs.
+        Make your website run with a very useful feature by using our custom themes
+        and plugins. Read the documentation to know how it works!
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
@@ -31,14 +29,14 @@ export default function Home() {
           Get Stared
         </Link>
         <Link
-          href="/blog"
+          href="https://studioinspirasi.com/"
           className={buttonVariants({
             variant: "secondary",
             className: "px-6",
             size: "lg",
           })}
         >
-          Read Blog
+          Visit Studio Inspirasi
         </Link>
       </div>
       <span className="flex flex-row items-start sm:gap-2 gap-0.5 text-muted-foreground text-md mt-7 -mb-12 max-[800px]:mb-12 font-code text-base font-medium">
