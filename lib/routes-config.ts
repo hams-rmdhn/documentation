@@ -19,6 +19,7 @@ export const ROUTES: EachRoute[] = [
         href: "/free-plugins",
         items: [
           { title: "Dynamic Data", href: "/dynamic-data" },
+          { title: "Simple Template", href: "/simple-template" },
         ],
       },
       {
