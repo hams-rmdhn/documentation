@@ -33,11 +33,11 @@ export function FooterButtons() {
     <>
       
       <Link
-        href="https://github.com/sponsors/nisabmohd"
+        href="https://studioinspirasi.com/"
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
         <HeartIcon className="h-4 w-4 mr-2 text-red-600 fill-current" />
-        Document Designer
+        WordPress Developer
       </Link>
     </>
   );
