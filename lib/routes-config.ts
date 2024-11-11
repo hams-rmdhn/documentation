@@ -40,6 +40,10 @@ export const ROUTES: EachRoute[] = [
         title: "Customize",
         href: "/customize",
       },
+      {
+        title: "Woo Marketplace Buttons",
+        href: "/woo-marketplace-buttons",
+      },
     ],
   },
 ];
