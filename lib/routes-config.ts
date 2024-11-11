@@ -19,8 +19,6 @@ export const ROUTES: EachRoute[] = [
         href: "/free-plugins",
         items: [
           { title: "Dynamic Data", href: "/dynamic-data" },
-          { title: "PLYR Player", href: "/plyr-player" },
-          { title: "Simple Template", href: "/simple-template" },
         ],
       },
       {
