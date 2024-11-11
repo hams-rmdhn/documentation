@@ -14,36 +14,17 @@ export const ROUTES: EachRoute[] = [
     noLink: true,
     items: [
       { title: "Introduction", href: "/introduction" },
-      {
-        title: "Installation",
-        href: "/installation",
-      },
-      { title: "Quick Start Guide", href: "/quick-start-guide" },
-      {
-        title: "Project Structure",
-        href: "/project-structure",
-      },
-      {
-        title: "Components",
-        href: "/components",
-        items: [
-          { title: "Stepper", href: "/stepper" },
-          { title: "Tabs", href: "/tabs" },
-          { title: "Note", href: "/note" },
-          { title: "Code Block", href: "/code-block" },
-          { title: "Image & Link", href: "/image-link" },
-          { title: "Custom", href: "/custom" },
-        ],
-      },
-      { title: "Themes", href: "/themes" },
-      {
-        title: "Customize",
-        href: "/customize",
-      },
-      {
-        title: "Woo Marketplace Buttons",
-        href: "/woo-marketplace-buttons",
-      },
+      { title: "Affiliate Partners", href: "/affiliate-partner" },
+      { title: "Customize", href: "/customize" },
+      { title: "Dynamic Data", href: "/dynamic-data" },
+      { title: "PLYR Player", href: "/plyr-player" },
+      { title: "PPDB Announcement", href: "/ppdb-announcement" },
+      { title: "Simple Template", href: "/simple-template" },
+      { title: "Table of Sheet", href: "/table-of-sheet" },
+      { title: "Tabler Login", href: "/tabler-login" },
+      { title: "Woo Cek Custom Resi", href: "/woo-cek-custom-resi" },
+      { title: "Woo Marketplace Buttons", href: "/woo-marketplace-buttons" },
+      { title: "Whatsapp Per Woo Product", href: "/whatsapp-per-woo-product" },
     ],
   },
 ];
