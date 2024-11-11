@@ -15,7 +15,7 @@ export const NAVLINKS = [
   },
   {
     title: "Themes",
-    href: "https://studioinspirasi.com/product-category/themes/,
+    href: "https://studioinspirasi.com/product-category/themes/",
   },
   {
     title: "Plugins",
