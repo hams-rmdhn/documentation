@@ -7,11 +7,11 @@ export default function Home() {
   return (
     <div className="flex sm:min-h-[92vh] min-h-[85vh] flex-col items-center justify-center text-center px-2 py-8">
       <Link
-        href="https://github.com/nisabmohd/Aria-Docs"
+        href="https://studioinspirasi.com/product-category/plugins/"
         target="_blank"
         className="mb-5 sm:text-lg flex items-center gap-2 underline underline-offset-4 sm:-mt-12"
       >
-        Follow along on GitHub{" "}
+        Get our custom themes & plugins{" "}
         <MoveUpRightIcon className="w-4 h-4 font-extrabold" />
       </Link>
       <h1 className="text-3xl font-bold mb-4 sm:text-6xl">
