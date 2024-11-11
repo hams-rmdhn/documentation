@@ -1,17 +1,11 @@
 ---
 title: Simple Template
-description: Use dynamic data everywhere in your site.
+description: Create custom single post template & query loop easily!
 ---
 
-**Dynamic Data** is a WordPress Plugin for displaying dynamic data from post_meta, user_meta, and wp_options.
+**Simple Template** is a WordPress Plugin for applying a gutenberg design to be a single post template. You can create a custom query loop too!
 
-The usage is quite simple, just use the following code format:
-
-- `{post_meta: meta_key}`
-- `{user_meta: meta_key}`
-- `{wp_option: meta_key}`
-
-Change `meta_key` according to your needs.
+Simple Template requires <a href="https://studioinspirasi.com/product/dynamic-data" target="_blank">Dynamic Data</a> plugin to work properly. So, please install both of the plugin. 
 
 ##  General
 
@@ -19,7 +13,7 @@ Change `meta_key` according to your needs.
 
 <Stepper>
   <StepperItem title="Step 1: Download">
-    Download the plugin in <a href="https://studioinspirasi.com/product/dynamic-data" target="_blank">Studio Inspirasi</a>, so you will get the zip file of the recent plugin update.
+    Download the plugin in <a href="https://studioinspirasi.com/product/simple-template" target="_blank">Studio Inspirasi</a>, so you will get the zip file of the recent plugin update.
   </StepperItem>
   <StepperItem title="Step 2: Upload & Install">
     Upload and Install the plugin to your WordPress by navigating to your wordpress dashboard menu in: `Plugins` > `Add New` > `Upload Plugin` > `Choose File` > `Install Now`.
@@ -46,37 +40,27 @@ Change `meta_key` according to your needs.
 
 ##  How to Use
 
-The tutorial of "How to use dynamic data" is here below:
+The tutorial of "How To Use Simple Template" is here below:
 
 <iframe width="100%" height="360px" src="https://www.youtube.com/embed/NlIZSWz3FME?si=mMGtXPRmSf-ggFc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ##  Features
 
-### Post Meta
+### Create Single Post Template
 
-You can get the postmeta value by inserting custom post meta by using advance custom field, metabox, jetengine or anything as far as the data of custom field is being saved in `prefix_postmeta` table. For example:
-- `{post_meta: vehicle_type}`: Get the type of the current vehicle.
-- `{post_meta: vehicle_brand}`: Get the brand of the current vehicle.
+With Simple Template, you can create a custom single post template with conditions:
+- {Specific Custom Post Type}: The custom single template will be applied for entire post in specific custom post type. Example: `book`, `vehicle`, etc.
+- {Speciific Post}: The custom single post template will be applied for specific post. Example: The posts with the id `87`, `433`, etc
 
-### User Meta
+### Create Custom Query Loop 
 
-You can get the current user data that being saved in `prefix_usermeta` table. For example:
-- `{user_meta: job}`: Get the current user's job.
-- `{user_meta: hobby}`: Get the current user's hobby.
-
-### WP Option
-
-You can get the data from `prefix_options` table. For example:
-
-- `{wp_option: blogname}`: Get the name of the blog.
-- `{wp_option: siteurl}`: Get the url of the site.
+With Simple Template, you can create a custom query loop that being displayed in the frontend by using shortcode `{query-loop query="98" template="76"}`.
+- `query`: the id of the query
+- `template`: the id of the template that will be used by the query.
 
 ##  Use Cases
 
-**Dynamic Data** developed and used by Studio Inspirasi to get the data from database easily using `{like-this: code}`. Some of use case we have found:
-
-- **Query Loop:** Using dynamic data in a query loop making it very easy to get the data based on every single loop.
-- **Single Template:** Designing single template with dynamic data give us ability to show the details of the single post.
+**Simple Template** developed and used by Studio Inspirasi to create a custom child-theme. So, hopefully this plugin can get the feature of custom single template and query loop without purchasing Pro version of the theme. 
 
 <Note title="📂 Contribution"> 
  Interested in the plugin improvement? Email us on [dev@studioinspirasi.com](mailto:dev@studioinspirasi.com)! From feature suggestions to bug fixes, all contribution are welcome.
