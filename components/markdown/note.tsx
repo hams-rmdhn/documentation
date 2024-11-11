@@ -29,7 +29,7 @@ export default function Note({
         noteClassNames
       )}
     >
-      <p className="font-bold -mb-2.5">{title}:</p> {children}
+      <p className="font-bold -mb-2.5">{title}</p> {children}
     </div>
   );
 }
