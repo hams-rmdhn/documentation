@@ -20,6 +20,7 @@ export const ROUTES: EachRoute[] = [
         items: [
           { title: "Dynamic Data", href: "/dynamic-data" },
           { title: "Simple Template", href: "/simple-template" },
+          { title: "Plyr.io Player for WordPress", href: "/plyr-io-player-for-wordpress" },
         ],
       },
       {
