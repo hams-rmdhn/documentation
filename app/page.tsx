@@ -18,8 +18,8 @@ export default function Home() {
         Studio Inspirasi
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
-        Documentation of plugins & custom themes we created.
-        Read the documentation to know how the features work.
+        Documentation of plugins & custom themes we created. Read the documentation to 
+        know how the features work and what use cases it is being used.
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link

@@ -36,9 +36,8 @@ export function FooterButtons() {
         href="https://studioinspirasi.com/"
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
-        Made with 
         <HeartIcon className="h-4 w-4 mr-2 text-red-600 fill-current" />
-         in Indonesia
+         From Indonesia
       </Link>
     </>
   );
