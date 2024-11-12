@@ -13,14 +13,6 @@ export const NAVLINKS = [
     title: "Documentation",
     href: `/docs${page_routes[0].href}`,
   },
-  {
-    title: "Themes",
-    href: "https://studioinspirasi.com/product-category/themes/",
-  },
-  {
-    title: "Plugins",
-    href: "https://studioinspirasi.com/product-category/plugins/",
-  },
 ];
 
 export function Navbar() {
