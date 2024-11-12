@@ -29,6 +29,7 @@ export const ROUTES: EachRoute[] = [
         items: [
           { title: "Affiliate Partners", href: "/affiliate-partners" },
           { title: "PPDB Announcement", href: "/ppdb-announcement" },
+          { title: "Tabler Login", href: "/tabler-login" },
         ],
       },
     ],
