@@ -30,6 +30,7 @@ export const ROUTES: EachRoute[] = [
           { title: "Affiliate Partners", href: "/affiliate-partners" },
           { title: "PPDB Announcement", href: "/ppdb-announcement" },
           { title: "Tabler Login", href: "/tabler-login" },
+          { title: "Woo Cek Custom Resi", href: "/woo-cek-custom-resi" },
         ],
       },
     ],
