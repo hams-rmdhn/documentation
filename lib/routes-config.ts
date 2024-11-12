@@ -29,6 +29,7 @@ export const ROUTES: EachRoute[] = [
         items: [
           { title: "Affiliate Partners", href: "/affiliate-partners" },
           { title: "PPDB Announcement", href: "/ppdb-announcement" },
+          { title: "Table of Sheet", href: "/table-of-sheet" },
           { title: "Tabler Login", href: "/tabler-login" },
           { title: "Whatsapp Per Woo Product", href: "/whatsapp-per-woo-product" },
           { title: "Woo Cek Custom Resi", href: "/woo-cek-custom-resi" },
