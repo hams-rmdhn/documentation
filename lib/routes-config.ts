@@ -19,6 +19,7 @@ export const ROUTES: EachRoute[] = [
         href: "/free-plugins",
         items: [
           { title: "Dynamic Data", href: "/dynamic-data" },
+          { title: "Onesender Sheet Broadcast", href: "/onesender-sheet-broadcast" },
           { title: "Simple Template", href: "/simple-template" },
           { title: "Plyr.io Player for WordPress", href: "/plyr-io-player-for-wordpress" },
         ],
