@@ -18,6 +18,7 @@ export const ROUTES: EachRoute[] = [
         title: "Free Plugins",
         href: "/free-plugins",
         items: [
+          { title: "Bambu Runcing Security", href: "/bambu-runcing" },
           { title: "Dynamic Data", href: "/dynamic-data" },
           { title: "Inspirasi Player", href: "/inspirasi-player" },
           { title: "Onesender Sheet Broadcast", href: "/onesender-sheet-broadcast" },
