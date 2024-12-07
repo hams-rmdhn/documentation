@@ -30,6 +30,7 @@ export const ROUTES: EachRoute[] = [
         href: "/premium-plugins",
         items: [
           { title: "Affiliate Partners", href: "/affiliate-partners" },
+          { title: "Onesender Sheet Broadcast Pro", href: "/onesender-sheet-broadcast-pro" },
           { title: "PPDB Announcement", href: "/ppdb-announcement" },
           { title: "Table of Sheet", href: "/table-of-sheet" },
           { title: "Tabler Login", href: "/tabler-login" },
